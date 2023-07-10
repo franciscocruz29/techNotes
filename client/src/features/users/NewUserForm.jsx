@@ -77,7 +77,6 @@ const NewUserForm = () => {
   const validPwdClass = !validPassword ? 'form__input--incomplete' : '';
   const validRolesClass = !Boolean(roles.length) ? 'form__input--incomplete' : '';
 
-
   const content = (
     <>
       <p className={errClass}>{error?.data?.message}</p>
