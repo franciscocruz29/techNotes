@@ -32,8 +32,6 @@ const DashFooter = () => {
       <p>Status: {status}</p>
     </footer>
   );
-
   return content;
 };
-
 export default DashFooter;
